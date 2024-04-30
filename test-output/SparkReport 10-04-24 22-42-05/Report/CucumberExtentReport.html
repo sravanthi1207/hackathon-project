@@ -1,0 +1,1577 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Apr 10, 2024 10:42:05 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@smoke</a><a class="dropdown-item" href="#">@regression</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Display items name and price in bookshelves page</p>
+            <p class="text-sm">
+              <span>10:42:07 pm</span> / <span>00:01:41:419</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Display items name and price in bookshelves page</h5>
+<span class='badge badge-success'>04.10.2024 10:42:07 pm</span>
+<span class='badge badge-danger'>04.10.2024 10:43:48 pm</span>
+<span class='badge badge-default'>00:01:41:419</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Validation with invalid input</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinition.checkBookshelf.the_user_is_in_bookshelves_page()">
+                <span>Given the user is in Bookshelves page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinition.checkBookshelf.the_user_enters_the_invalid_input_as_search(java.lang.String)">
+                <span>When the user enters the invalid input as search "Bwqdvnjibvoiqbvb1232"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>stepDefinition.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validation with invalid input
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded1.png' src="../Screenshots/embedded1.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="8"><span class="badge log pass-bg mr-2">Pass</span>Successfull page navigation with valid input</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinition.checkBookshelf.the_user_is_in_bookshelves_page()">
+                <span>Given the user is in Bookshelves page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinition.checkBookshelf.the_user_enters_the_input_as_search(java.lang.String)">
+                <span>When the user enters the input as search "Bookshelves with price below 15000"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>stepDefinition.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Successfull page navigation with valid input
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded2.png' src="../Screenshots/embedded2.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="14"><span class="badge log pass-bg mr-2">Pass</span>Handling popups</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinition.checkBookshelf.the_user_is_in_bookshelves_page()">
+                <span>Given the user is in Bookshelves page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinition.checkBookshelf.the_user_enters_the_input_as_search(java.lang.String)">
+                <span>When the user enters the input as search "Bookshelves with price below 15000"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinition.checkBookshelf.user_close_the_authentication_popup()">
+                <span>And user close the authentication popup</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>stepDefinition.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Handling popups
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded3.png' src="../Screenshots/embedded3.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="21"><span class="badge log fail-bg mr-2">Fail</span>Successfull page navigation with valid input</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinition.checkBookshelf.the_user_is_in_bookshelves_page()">
+                <span>Given the user is in Bookshelves page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinition.checkBookshelf.the_user_enters_the_input_as_search(java.lang.String)">
+                <span>When the user enters the input as search "Bookshelves with price below 15000"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinition.checkBookshelf.user_close_the_authentication_popup()">
+                <span>And user close the authentication popup</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" >
+                <span>And user set the catogory</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.checkBookshelf.user_set_price_in_dropdown()">
+                <span>And user set price in dropdown</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>stepDefinition.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Successfull page navigation with valid input
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded4.png' src="../Screenshots/embedded4.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="30"><span class="badge log fail-bg mr-2">Fail</span>Fetching item name and details</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinition.checkBookshelf.the_user_is_in_bookshelves_page()">
+                <span>Given the user is in Bookshelves page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinition.checkBookshelf.the_user_enters_the_input_as_search(java.lang.String)">
+                <span>When the user enters the input as search "Bookshelves with price below 15000"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinition.checkBookshelf.user_close_the_authentication_popup()">
+                <span>And user close the authentication popup</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" >
+                <span>And user set the catogory</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.checkBookshelf.user_set_price_in_dropdown()">
+                <span>And user set price in dropdown</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.checkBookshelf.user_get_the_first_three_items_name_and_price_in_console()">
+                <span>Then user get the first three items name and price in console</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>stepDefinition.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Fetching item name and details
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded5.png' src="../Screenshots/embedded5.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="40"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Display all headers in any one sub-menu</p>
+            <p class="text-sm">
+              <span>10:43:48 pm</span> / <span>00:00:52:957</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Display all headers in any one sub-menu</h5>
+<span class='badge badge-success'>04.10.2024 10:43:48 pm</span>
+<span class='badge badge-danger'>04.10.2024 10:44:41 pm</span>
+<span class='badge badge-default'>00:00:52:957</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=40</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="41"><span class="badge log pass-bg mr-2">Pass</span>Validating the presence of Headers</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinition.checkLivingMenu.the_user_scrolls_up_to_header()">
+                <span>Given the user scrolls up to Header</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>stepDefinition.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validating the presence of Headers
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded6.png' src="../Screenshots/embedded6.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="46"><span class="badge log pass-bg mr-2">Pass</span>Validating the sub-Headers</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinition.checkLivingMenu.the_user_clicks_on_living_storage()">
+                <span>Then the user clicks on Living storage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinition.checkLivingMenu.the_user_scrolls_up_to_header()">
+                <span>Given the user scrolls up to Header</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>stepDefinition.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validating the sub-Headers
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded7.png' src="../Screenshots/embedded7.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="52"><span class="badge log pass-bg mr-2">Pass</span>Validating the sub-Headers</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinition.checkLivingMenu.the_user_clicks_on_table_section()">
+                <span>Then the user clicks on table section</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinition.checkLivingMenu.the_user_scrolls_up_to_header()">
+                <span>Given the user scrolls up to Header</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>stepDefinition.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validating the sub-Headers
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded8.png' src="../Screenshots/embedded8.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="58"><span class="badge log pass-bg mr-2">Pass</span>Extracting the items under sub-headers</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinition.checkLivingMenu.the_user_scrolls_up_to_header()">
+                <span>Given the user scrolls up to Header</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinition.checkLivingMenu.the_user_clicks_on_living_storage()">
+                <span>Then the user clicks on Living storage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinition.checkLivingMenu.the_user_extracts_all_items_under_living_storage()">
+                <span>Then the user extracts all items under living storage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>stepDefinition.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Extracting the items under sub-headers
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded9.png' src="../Screenshots/embedded9.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="65"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Giftcard validation with  inputs</p>
+            <p class="text-sm">
+              <span>10:44:41 pm</span> / <span>00:01:15:576</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Giftcard validation with inputs</h5>
+<span class='badge badge-success'>04.10.2024 10:44:41 pm</span>
+<span class='badge badge-danger'>04.10.2024 10:45:57 pm</span>
+<span class='badge badge-default'>00:01:15:576</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=65</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="66"><span class="badge log pass-bg mr-2">Pass</span>Validation of Giftcard is navigated</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinition.checkGiftcard.the_user_successfully_navigating_to_the_giftcard_page()">
+                <span>Given the user successfully navigating to the Giftcard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>stepDefinition.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validation of Giftcard is navigated
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded10.png' src="../Screenshots/embedded10.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="71"><span class="badge log fail-bg mr-2">Fail</span>Validation of birthday/Aniversary inGiftcard validation</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinition.checkGiftcard.the_user_successfully_navigating_to_the_giftcard_page()">
+                <span>Given the user successfully navigating to the Giftcard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" >
+                <span>Then the user selects Birthday/Aniversary occasion</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>stepDefinition.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validation of birthday/Aniversary inGiftcard validation
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded11.png' src="../Screenshots/embedded11.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="77"><span class="badge log fail-bg mr-2">Fail</span>Validation of Giftcard validation with valid inputs</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinition.checkGiftcard.the_user_successfully_navigating_to_the_giftcard_page()">
+                <span>Given the user successfully navigating to the Giftcard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" >
+                <span>Then the user selects Birthday/Aniversary occasion</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.checkGiftcard.user_enters_the_amount_in_amount_section_and_selects_invalid_inputs(java.lang.String)">
+                <span>And user enters the amount "5000000" in amount section and selects invalid inputs</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.checkGiftcard.user_clicks_next_button()">
+                <span>Then user clicks next button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>stepDefinition.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validation of Giftcard validation with valid inputs
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded12.png' src="../Screenshots/embedded12.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="85"><span class="badge log fail-bg mr-2">Fail</span>Validation of Giftcard validation with invalid inputs</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinition.checkGiftcard.the_user_successfully_navigating_to_the_giftcard_page()">
+                <span>Given the user successfully navigating to the Giftcard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" >
+                <span>Then the user selects Birthday/Aniversary occasion</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.checkGiftcard.user_clicks_next_button()">
+                <span>Then user clicks next button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>stepDefinition.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validation of Giftcard validation with invalid inputs
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded13.png' src="../Screenshots/embedded13.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="92"><span class="badge log fail-bg mr-2">Fail</span>Validation of Giftcard validation navigates to next page</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinition.checkGiftcard.the_user_successfully_navigating_to_the_giftcard_page()">
+                <span>Given the user successfully navigating to the Giftcard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" >
+                <span>Then the user selects Birthday/Aniversary occasion</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.checkGiftcard.user_enters_the_amount_in_amount_section_and_selects_valid_inputs(java.lang.String)">
+                <span>And user enters the amount "5000" in amount section and selects valid inputs</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.checkGiftcard.user_clicks_next_button()">
+                <span>Then user clicks next button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>stepDefinition.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validation of Giftcard validation navigates to next page
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded14.png' src="../Screenshots/embedded14.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="100"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Valid Inputs</p>
+            <p class="text-sm">
+              <span>10:45:57 pm</span> / <span>00:01:00:077</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Valid Inputs</h5>
+<span class='badge badge-success'>04.10.2024 10:45:57 pm</span>
+<span class='badge badge-danger'>04.10.2024 10:46:57 pm</span>
+<span class='badge badge-default'>00:01:00:077</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=100</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="101"><span class="badge log fail-bg mr-2">Fail</span>Validation of Form with valid inputs</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="102"><span class="badge log fail-bg mr-2">Fail</span>Validation of Form with valid inputs</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given the user successfully navigating to the Giftcard page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then the user selects Birthday/Aniversary occasion</span>
+      <div>Step undefined
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And user enters the amount "5000" in amount section and selects valid inputs</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then user clicks next button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And user enters the valid "2" from excel in the form</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then user clicks the submit button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then user checks the confirmdetails page is visible</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepDefinition.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validation of Form with valid inputs
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded15.png' src="../Screenshots/embedded15.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="113"><span class="badge log fail-bg mr-2">Fail</span>Validation of Form with invalid Mail</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="114"><span class="badge log fail-bg mr-2">Fail</span>Validation of Form with invalid Mail</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given the user successfully navigating to the Giftcard page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then the user selects Birthday/Aniversary occasion</span>
+      <div>Step undefined
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And user enters the amount "5000" in amount section and selects valid inputs</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then user clicks next button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And user enters the invalid "1" from excel in the form</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then user clicks the submit button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then user checks the confirmdetails page is visible</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepDefinition.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validation of Form with invalid Mail
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded16.png' src="../Screenshots/embedded16.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="125"><span class="badge log fail-bg mr-2">Fail</span>Validation of Form with invalid name</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="126"><span class="badge log fail-bg mr-2">Fail</span>Validation of Form with invalid name</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given the user successfully navigating to the Giftcard page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then the user selects Birthday/Aniversary occasion</span>
+      <div>Step undefined
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And user enters the amount "5000" in amount section and selects valid inputs</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then user clicks next button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And user enters the invalid "3" from excel in the form</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then user clicks the submit button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then user checks the confirmdetails page is visible</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepDefinition.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validation of Form with invalid name
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded17.png' src="../Screenshots/embedded17.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="137"><span class="badge log fail-bg mr-2">Fail</span>Validation of Form with invalid mobile</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="138"><span class="badge log fail-bg mr-2">Fail</span>Validation of Form with invalid mobile</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given the user successfully navigating to the Giftcard page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then the user selects Birthday/Aniversary occasion</span>
+      <div>Step undefined
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And user enters the amount "5000" in amount section and selects valid inputs</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then user clicks next button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And user enters the invalid "4" from excel in the form</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then user clicks the submit button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then user checks the confirmdetails page is visible</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepDefinition.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validation of Form with invalid mobile
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded18.png' src="../Screenshots/embedded18.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="149"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Display BookShelves</p>
+            <p class="text-sm">
+              <span>10:46:57 pm</span> / <span>00:00:29:597</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Display BookShelves</h5>
+<span class='badge badge-success'>04.10.2024 10:46:57 pm</span>
+<span class='badge badge-danger'>04.10.2024 10:47:26 pm</span>
+<span class='badge badge-default'>00:00:29:597</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=149</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="150"><span class="badge log fail-bg mr-2">Fail</span>urbanlader Bookshelves</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given search for bookselves</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.BookShelf.select_kids_category()">
+                <span>When select kids category</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.BookShelf.select_in_stock()">
+                <span>And select in stock</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.BookShelf.priority_low_to_high()">
+                <span>And priority high to low</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.BookShelf.print_the_first_three_bookshelves_under()">
+                <span>Then Print the first three bookshelves</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>stepDefinition.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>urbanlader Bookshelves
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded19.png' src="../Screenshots/embedded19.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="159"><span class="badge log pass-bg mr-2">Pass</span>Living</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinition.LivingSubMenu.hover_mouse_to_living()">
+                <span>Given Hover mouse to living</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinition.LivingSubMenu.sub_menus_should_be_appeared_and_print_it()">
+                <span>When sub menus should be appeared and print it</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>stepDefinition.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Living
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded20.png' src="../Screenshots/embedded20.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@smoke</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@smoke</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:45:57 pm</td>
+<td>
+<a href="#" class="linked" test-id='100' id='102'>Validation of Form with valid inputs</a>
+<div class="">
+<span class="badge badge-default">Valid Inputs.Validation of Form with valid inputs</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>8</span>
+<span class='badge log badge-danger'>9</span>
+</span>
+<p class="name">@regression</p>
+<p class="duration text-sm">17 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@regression</h4>
+<span status="pass" class='badge log pass-bg'>8 passed</span>
+<span status="fail" class='badge log badge-danger'>9 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:42:07 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Validation with invalid input</a>
+<div class="">
+<span class="badge badge-default">Display items name and price in bookshelves page.Validation with invalid input</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:42:23 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='8'>Successfull page navigation with valid input</a>
+<div class="">
+<span class="badge badge-default">Display items name and price in bookshelves page.Successfull page navigation with valid input</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:42:40 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='14'>Handling popups</a>
+<div class="">
+<span class="badge badge-default">Display items name and price in bookshelves page.Handling popups</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:43:11 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='21'>Successfull page navigation with valid input</a>
+<div class="">
+<span class="badge badge-default">Display items name and price in bookshelves page.Successfull page navigation with valid input</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:43:30 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='30'>Fetching item name and details</a>
+<div class="">
+<span class="badge badge-default">Display items name and price in bookshelves page.Fetching item name and details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:43:48 pm</td>
+<td>
+<a href="#" class="linked" test-id='40' id='41'>Validating the presence of Headers</a>
+<div class="">
+<span class="badge badge-default">Display all headers in any one sub-menu.Validating the presence of Headers</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:44:00 pm</td>
+<td>
+<a href="#" class="linked" test-id='40' id='46'>Validating the sub-Headers</a>
+<div class="">
+<span class="badge badge-default">Display all headers in any one sub-menu.Validating the sub-Headers</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:44:15 pm</td>
+<td>
+<a href="#" class="linked" test-id='40' id='52'>Validating the sub-Headers</a>
+<div class="">
+<span class="badge badge-default">Display all headers in any one sub-menu.Validating the sub-Headers</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:44:27 pm</td>
+<td>
+<a href="#" class="linked" test-id='40' id='58'>Extracting the items under sub-headers</a>
+<div class="">
+<span class="badge badge-default">Display all headers in any one sub-menu.Extracting the items under sub-headers</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:44:41 pm</td>
+<td>
+<a href="#" class="linked" test-id='65' id='66'>Validation of Giftcard is navigated</a>
+<div class="">
+<span class="badge badge-default">Giftcard validation with inputs.Validation of Giftcard is navigated</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:44:56 pm</td>
+<td>
+<a href="#" class="linked" test-id='65' id='71'>Validation of birthday/Aniversary inGiftcard validation</a>
+<div class="">
+<span class="badge badge-default">Giftcard validation with inputs.Validation of birthday/Aniversary inGiftcard validation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:45:10 pm</td>
+<td>
+<a href="#" class="linked" test-id='65' id='77'>Validation of Giftcard validation with valid inputs</a>
+<div class="">
+<span class="badge badge-default">Giftcard validation with inputs.Validation of Giftcard validation with valid inputs</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:45:28 pm</td>
+<td>
+<a href="#" class="linked" test-id='65' id='85'>Validation of Giftcard validation with invalid inputs</a>
+<div class="">
+<span class="badge badge-default">Giftcard validation with inputs.Validation of Giftcard validation with invalid inputs</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:45:42 pm</td>
+<td>
+<a href="#" class="linked" test-id='65' id='92'>Validation of Giftcard validation navigates to next page</a>
+<div class="">
+<span class="badge badge-default">Giftcard validation with inputs.Validation of Giftcard validation navigates to next page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:46:10 pm</td>
+<td>
+<a href="#" class="linked" test-id='100' id='114'>Validation of Form with invalid Mail</a>
+<div class="">
+<span class="badge badge-default">Valid Inputs.Validation of Form with invalid Mail</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:46:25 pm</td>
+<td>
+<a href="#" class="linked" test-id='100' id='126'>Validation of Form with invalid name</a>
+<div class="">
+<span class="badge badge-default">Valid Inputs.Validation of Form with invalid name</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:46:41 pm</td>
+<td>
+<a href="#" class="linked" test-id='100' id='138'>Validation of Form with invalid mobile</a>
+<div class="">
+<span class="badge badge-default">Valid Inputs.Validation of Form with invalid mobile</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Apr 10, 2024 10:42:05 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Apr 10, 2024 10:47:26 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>4</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='20%'>
+<b>1</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='80%'><b>4</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='45%'><b>9</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='55%'><b>11</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='54%'><b>52</b> steps passed</small></div>
+<div>
+<small data-tooltip='11%'><b>11</b> steps failed,
+<b>32</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Display items name and price in bookshelves page":101.419,"Display all headers in any one sub-menu":52.957,"Giftcard validation with inputs":75.576,"Valid Inputs":60.077,"Display BookShelves":29.597
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@smoke</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@regression</td>
+<td>8</td>
+<td>9</td>
+<td>0</td>
+<td>0</td>
+<td>47.059%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 4,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 9,
+failChild: 11,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 52,
+failGrandChild: 11,
+warningGrandChild: 0,
+skipGrandChild: 32,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

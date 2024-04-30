@@ -1,0 +1,65 @@
+12:16:07.885 [main] INFO  factory.BaseClass - User clicks on living storage header.. 
+12:16:31.554 [main] INFO  factory.BaseClass - User clicks on living storage header.. 
+12:16:34.750 [main] INFO  factory.BaseClass - User extracts all items under living storage.. 
+12:18:04.200 [main] INFO  factory.BaseClass - User passes value from excel.. 
+12:18:06.021 [main] INFO  factory.BaseClass - User clicks submit button.. 
+12:18:22.327 [main] INFO  factory.BaseClass - User checks page is visible ?.. 
+13:32:54.597 [main] INFO  TestCase.TC_001 - started logs
+13:34:00.333 [main] INFO  TestCase.TC_001 - started logs
+13:39:43.097 [main] INFO  TestCase.TC_001 - started logs
+13:56:59.705 [main] INFO  TestCase.TC_003 - started logs
+14:12:26.871 [main] INFO  TestCase.TC_001 - started logs
+14:16:51.743 [main] INFO  TestCase.TC_002 - started logs
+14:20:07.833 [main] INFO  TestCase.TC_001 - started logs
+14:30:19.057 [main] INFO  TestCase.TC_001 - started logs
+14:33:57.873 [main] INFO  factory.BaseClass - User clicks on living storage header.. 
+14:34:30.544 [main] INFO  factory.BaseClass - User clicks on living storage header.. 
+14:34:33.768 [main] INFO  factory.BaseClass - User extracts all items under living storage.. 
+14:35:59.710 [main] INFO  factory.BaseClass - User passes value from excel.. 
+14:36:01.729 [main] INFO  factory.BaseClass - User clicks submit button.. 
+14:36:17.974 [main] INFO  factory.BaseClass - User checks page is visible ?.. 
+14:46:43.209 [main] INFO  factory.BaseClass - User passes value from excel.. 
+14:46:45.424 [main] INFO  factory.BaseClass - User clicks submit button.. 
+14:47:01.683 [main] INFO  factory.BaseClass - User checks page is visible ?.. 
+14:47:16.799 [main] INFO  factory.BaseClass - User passes values from excel.. 
+14:47:17.841 [main] INFO  factory.BaseClass - User clicks submit button.. 
+14:47:34.120 [main] INFO  factory.BaseClass - User checks page is visible ?.. 
+14:47:49.914 [main] INFO  factory.BaseClass - User passes values from excel.. 
+14:47:51.142 [main] INFO  factory.BaseClass - User clicks submit button.. 
+14:48:07.415 [main] INFO  factory.BaseClass - User checks page is visible ?.. 
+14:48:23.520 [main] INFO  factory.BaseClass - User passes values from excel.. 
+14:48:24.635 [main] INFO  factory.BaseClass - User clicks submit button.. 
+14:48:40.819 [main] INFO  factory.BaseClass - User checks page is visible ?.. 
+14:52:31.060 [main] INFO  factory.BaseClass - User passes value from excel.. 
+14:52:32.674 [main] INFO  factory.BaseClass - User clicks submit button.. 
+14:52:48.881 [main] INFO  factory.BaseClass - User checks page is visible ?.. 
+14:53:02.861 [main] INFO  factory.BaseClass - User passes values from excel.. 
+14:53:03.972 [main] INFO  factory.BaseClass - User clicks submit button.. 
+14:53:20.207 [main] INFO  factory.BaseClass - User checks page is visible ?.. 
+14:53:34.308 [main] INFO  factory.BaseClass - User passes values from excel.. 
+14:53:35.334 [main] INFO  factory.BaseClass - User clicks submit button.. 
+14:53:51.588 [main] INFO  factory.BaseClass - User checks page is visible ?.. 
+14:54:06.080 [main] INFO  factory.BaseClass - User passes values from excel.. 
+14:54:07.131 [main] INFO  factory.BaseClass - User clicks submit button.. 
+14:54:23.332 [main] INFO  factory.BaseClass - User checks page is visible ?.. 
+15:32:34.896 [main] INFO  factory.BaseClass - User passes value from excel.. 
+15:32:37.857 [main] INFO  factory.BaseClass - User clicks submit button.. 
+15:32:54.133 [main] INFO  factory.BaseClass - User checks page is visible ?.. 
+15:33:41.626 [main] INFO  factory.BaseClass - User passes values from excel.. 
+15:33:43.018 [main] INFO  factory.BaseClass - User clicks submit button.. 
+15:33:59.328 [main] INFO  factory.BaseClass - User checks page is visible ?.. 
+15:34:48.984 [main] INFO  factory.BaseClass - User passes values from excel.. 
+15:34:50.848 [main] INFO  factory.BaseClass - User clicks submit button.. 
+15:35:07.374 [main] INFO  factory.BaseClass - User checks page is visible ?.. 
+15:35:50.132 [main] INFO  factory.BaseClass - User passes values from excel.. 
+15:35:51.558 [main] INFO  factory.BaseClass - User clicks submit button.. 
+15:36:07.765 [main] INFO  factory.BaseClass - User checks page is visible ?.. 
+15:46:50.723 [main] INFO  factory.BaseClass - User clicks on living storage header.. 
+15:48:12.097 [main] INFO  factory.BaseClass - User clicks on living storage header.. 
+15:48:15.280 [main] INFO  factory.BaseClass - User extracts all items under living storage.. 
+15:52:58.718 [main] INFO  factory.BaseClass - User passes value from excel.. 
+15:53:01.540 [main] INFO  factory.BaseClass - User clicks submit button.. 
+15:53:17.852 [main] INFO  factory.BaseClass - User checks page is visible ?.. 
+15:54:00.900 [main] INFO  factory.BaseClass - User passes values from excel.. 
+15:54:02.182 [main] INFO  factory.BaseClass - User clicks submit button.. 
+15:54:18.442 [main] INFO  factory.BaseClass - User checks page is visible ?.. 
